@@ -18,12 +18,53 @@ nav img {
 
 nav ul {
 	display: inline-block;
+	list-style: none;
 	position: absolute;
 	left: 150px;
 }
 
 nav li {
 	display: inline-block;
-	border-right: 2px solid black;
+	border-right: 2px black solid;
 	padding-right: 4px;
+}
+
+
+main {
+	position: fixed;
+	top: 80px;
+	width: 100%;
+	height: 100%;
+	background: red;
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.animals {
+	position: relative;
+	left: auto;
+	right: auto;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin: 150px auto auto auto;
+}
+
+.animals img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.cat {
+	left: -100px;
+	top: -100px;
+}
+
+.dog {
+	right: -100px;
+	bottom: -100px;
 }
